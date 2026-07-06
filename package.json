@@ -1,9 +1,17 @@
 {
     "name": "vite-plugin-tolgee-i18n",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "description": "Vite plugin for Tolgee translation integration with i18n inspector devtools",
     "type": "module",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/forever-chen/vite-plugin-tolgee-i18n.git"
+    },
+    "bugs": {
+        "url": "https://github.com/forever-chen/vite-plugin-tolgee-i18n/issues"
+    },
+    "homepage": "https://github.com/forever-chen/vite-plugin-tolgee-i18n#readme",
     "keywords": [
         "vite-plugin",
         "tolgee",

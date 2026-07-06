@@ -6,6 +6,7 @@
 [![Vue](https://img.shields.io/badge/Vue-3.3+-4fc08d)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-4+-646cff)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-repo-181717?logo=github)](https://github.com/forever-chen/vite-plugin-tolgee-i18n)
 
 > All-in-one Vue 3 + Tolgee i18n solution — zero-conflict team collaboration, near-zero code intrusion.
 
@@ -164,10 +165,10 @@ async function changeLocale(locale: string) {
 ## Usage Flow
 
 1. Click the "文" button at the bottom-right corner to enter edit mode
-   ![Click button](./assets/button.png)
-   ![Enter toggle secret](./assets/toggleKey.png)
+   ![Click button](https://raw.githubusercontent.com/forever-chen/vite-plugin-tolgee-i18n/main/assets/button.png)
+   ![Enter toggle secret](https://raw.githubusercontent.com/forever-chen/vite-plugin-tolgee-i18n/main/assets/toggleKey.png)
 2. Hold **Alt** and hover over text → see the i18n key and translations
-   ![Edit text](./assets/changeWords.png)
+   ![Edit text](https://raw.githubusercontent.com/forever-chen/vite-plugin-tolgee-i18n/main/assets/changeWords.png)
 3. Hold **Alt** and click text → edit dialog pops up, save to push directly to Tolgee
 4. Refresh the page, new Tolgee translations take effect immediately
 
@@ -269,3 +270,9 @@ This plugin is not an official Tolgee product. It is a lightweight alternative i
 ## License
 
 MIT
+
+---
+
+**GitHub**: [github.com/forever-chen/vite-plugin-tolgee-i18n](https://github.com/forever-chen/vite-plugin-tolgee-i18n) — ⭐ Star & contribute welcome!
+
+**Issues**: [github.com/forever-chen/vite-plugin-tolgee-i18n/issues](https://github.com/forever-chen/vite-plugin-tolgee-i18n/issues) — Bug reports & feature requests
