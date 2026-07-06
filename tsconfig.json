@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2022", "DOM"],
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "target": "ES2022",
+        "strict": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "composite": false,
+        "declaration": true,
+        "declarationDir": "./dist",
+        "emitDeclarationOnly": true,
+        "rootDir": "./src",
+        "types": ["node"],
+        "baseUrl": "."
+    },
+    "include": ["src/**/*.ts", "src/**/*.vue", "src/**/*.d.ts"]
+}

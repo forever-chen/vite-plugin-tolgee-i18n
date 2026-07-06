@@ -1,0 +1,54 @@
+{
+    "name": "vite-plugin-tolgee-i18n",
+    "version": "0.1.14",
+    "description": "Vite plugin for Tolgee translation integration with i18n inspector devtools",
+    "type": "module",
+    "license": "MIT",
+    "keywords": [
+        "vite-plugin",
+        "tolgee",
+        "i18n",
+        "inspector",
+        "vue"
+    ],
+    "sideEffects": false,
+    "files": [
+        "dist",
+        "assets",
+        "README.md"
+    ],
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        },
+        "./client": {
+            "types": "./dist/client/index.d.ts",
+            "import": "./dist/client/index.js"
+        }
+    },
+    "scripts": {
+        "build": "npx tsup",
+        "postbuild": "cp src/client/I18nInspector.vue dist/ && cp src/client/I18nInspector.vue dist/client/ && cp src/client/env.d.ts dist/client/ && node scripts/create-setup-shim.mjs",
+        "prepublishOnly": "pnpm build",
+        "dev": "tsup --watch"
+    },
+    "peerDependencies": {
+        "vite": ">=4.0.0",
+        "vue": ">=3.3.0",
+        "vue-i18n": ">=9.0.0"
+    },
+    "devDependencies": {
+        "tsup": "^8.4.0",
+        "typescript": "~4.7.4"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
